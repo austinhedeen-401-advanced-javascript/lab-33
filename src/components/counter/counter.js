@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const Count = () => {
-
   const [count, setCount] = useState(0);
 
   const styles = {
@@ -28,9 +27,9 @@ const Count = () => {
 
   return (
     <div style={styles.container}>
-      <button style={styles.button} onClick={() => setCount(count-1)}> - </button>
+      <button style={styles.button} onClick={() => setCount(count - 1)}> - </button>
       <span style={styles.counter}>{count}</span>
-      <button style={styles.button} onClick={() => setCount(count+1)}> + </button>
+      <button style={styles.button} onClick={() => setCount(count + 1)}> + </button>
     </div>
   );
 };
