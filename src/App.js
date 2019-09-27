@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Counter from './components/counter/counter';
+import Counter from './components/counter/Counter';
 import CounterProvider from './context/counter-context';
 import Decrementer from './components/incrementer/Decrementer';
 import Incrementer from './components/decrementer/Incrementer';
